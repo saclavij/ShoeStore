@@ -10,4 +10,8 @@
     <string name="password_edit_hint">Type your password here</string>
     <string name="setup_button">Setup</string>
     <string name="login_button">login</string>
+    <string name="welcomeh_text">Hi there, welcome!</string>
+    <string name="welcomeb_text">to the best Shoes App Ever</string>
+    <string name="go_ahead">Go Ahead</string>
+    <string name="login_image_description">Login Image</string>
 </resources>
