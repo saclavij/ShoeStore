@@ -8,13 +8,14 @@ import timber.log.Timber
 class ShoeListViewModel: ViewModel() {
 
     private val _shoes = MutableLiveData<MutableList<Shoe>>()
+    val shoes: LiveData<MutableList<Shoe>>
+        get() = _shoes
 
     init {
         Timber.i("ViewModel Lyfecycle started.")
     }
 
-    val shoes: LiveData<MutableList<Shoe>>
-        get() = _shoes
+
 
     override fun onCleared() {
         super.onCleared()
